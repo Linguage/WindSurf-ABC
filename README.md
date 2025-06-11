@@ -185,12 +185,71 @@ python visualize_temperature.py
 
 本项目采用 MIT 许可证，详情请参阅 [LICENSE](LICENSE) 文件。
 
+## 🔧 开发指南
+
+### Git 配置和使用
+
+本项目已配置完整的 Git 环境，包括：
+
+- **完整的 .gitignore 配置**：覆盖了 Python、Node.js、操作系统文件等
+- **Git 使用指南**：详见 [GIT_GUIDE.md](./GIT_GUIDE.md)
+- **提交规范**：遵循 Conventional Commits 标准
+- **分支策略**：main/develop/feature 分支管理
+
+快速开始：
+```bash
+# 克隆项目
+git clone <repository-url>
+cd WindSurf
+
+# 创建功能分支
+git checkout -b feature/your-feature
+
+# 提交更改
+git add .
+git commit -m "feat: 描述你的功能"
+
+# 推送分支
+git push origin feature/your-feature
+```
+
+## 🔧 开发指南
+
+### Git 配置和使用
+
+本项目已配置完整的 Git 环境，包括：
+
+- **完整的 .gitignore 配置**：覆盖了 Python、Node.js、操作系统文件等
+- **Git 使用指南**：详见 [GIT_GUIDE.md](./GIT_GUIDE.md)
+- **提交规范**：遵循 Conventional Commits 标准
+- **分支策略**：main/develop/feature 分支管理
+
+快速开始：
+
+```bash
+# 克隆项目
+git clone <repository-url>
+cd WindSurf
+
+# 创建功能分支
+git checkout -b feature/your-feature
+
+# 提交更改
+git add .
+git commit -m "feat: 描述你的功能"
+
+# 推送分支
+git push origin feature/your-feature
+```
+
 ## 🔗 相关链接
 
 - [Windsurf 官网](https://windsurf.dev)
 - [官方文档](https://docs.windsurf.dev)
 - [社区论坛](https://community.windsurf.dev)
 - [GitHub 官方仓库](https://github.com/windsurf-ai)
+- [Git 使用指南](./GIT_GUIDE.md)
+- [Git 使用指南](./GIT_GUIDE.md)
 
 ## 💬 联系我们
 
